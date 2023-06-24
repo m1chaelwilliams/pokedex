@@ -1,0 +1,29 @@
+* {
+    background-color: black;
+    color: var(--text-primary);
+    font-family: var(--ff-base);
+    font-size: 1rem;
+}
+
+:root {
+    --text-primary: white;
+    --text-secondary: gray;
+    --font-sm: 1.0rem;
+    --font-md: 1.5rem;
+    --font-lg: 3.0rem;
+    --ff-base: 'Questrial', sans-serif;
+    --bg-primary: black;
+    --bg-secondary: gray;
+}
+
+.text-primary {
+    color: var(--text-primary);
+    font-size: var(--font-md);
+}
+.text-secondary {
+    color: var(--text-secondary);
+    font-size: var(--font-sm);
+}
+.text-lg {
+    font-size: var(--font-lg);
+}
